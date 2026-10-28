@@ -195,7 +195,10 @@ form .alinhamentoButton {
 }
 
 .pausarIniciarEncerrar {
-    width: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .pausarIniciarEncerrar button {
@@ -205,7 +208,7 @@ form .alinhamentoButton {
     width: 140px;
     flex-wrap: wrap;
     border-radius: 8rem;
-    background-color: rgb(247, 246, 246);
+    background-color: #fffff8;
     border-style: none;
     border: 0.85px solid black;
     font-family: 'Playwrite DE Grund', Arial, Helvetica, sans-serif;
@@ -213,6 +216,7 @@ form .alinhamentoButton {
     cursor: pointer;
     gap: 0.8rem;
     flex-direction: column;
+    box-shadow: 0 4px 12px rgba(245, 168, 206, 0.4);
 
 }
 
@@ -298,7 +302,7 @@ form .alinhamentoButton {
     margin: 2rem;
     flex-wrap: wrap;
     height:250px;
-    width:200px;
+    width:100%;
 }
 
 .formInput {
@@ -306,9 +310,9 @@ form .alinhamentoButton {
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    width:100%
-    height:250px
-    width: 200px
+    height:250px;
+    width: 100%;
+
 
 
 }
