@@ -354,7 +354,7 @@ input[type="checkbox"] {
     }
 
     .alinhamento01,
-    .alinhamento02, pausarIniciarEncerrar {
+    .alinhamento02, .relogioTempo {
         display: flex;
         flex-direction: row;
         width: 100%;
@@ -372,7 +372,7 @@ input[type="checkbox"] {
     }
 
     .alinhamento01,
-    .alinhamento02, pausarIniciarEncerrar {
+    .alinhamento02, .relogioTempo {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -387,7 +387,7 @@ input[type="checkbox"] {
     }
 
     .alinhamento01,
-    .alinhamento02, pausarIniciarEncerrar {
+    .alinhamento02, .relogioTempo {
         display: flex;
         flex-direction: column;
         width: 100%;
