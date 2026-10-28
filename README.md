@@ -1,7 +1,7 @@
 # 💜 Pomodoro e Foco
 Este método de estudos ajuda milhares de pessoas ao redor do mundo a trabalharem em suas tarefas com os modos focado e difuso da atenção. 
 * Você pode ver tudo funcionando através deste link:
-* [https://rochalivia.github.io/make.me/](https://rochalivia.github.io/pomodoro-foco/)
+* (https://rochalivia.github.io/pomodoro-foco/)
 
 
 Além de propor mais produtividade, melhora processos de aprendizagem.
