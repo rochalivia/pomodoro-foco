@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&family=Playwrite+IT+Trad:wght@100..400&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="images/rosabg.jpeg">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Pomodoro e Foco</title>
+</head>
+
+<body>
+
+    <main>
+
+        <section class="hero">
+
+            <div class="primeiroBloco">
+                <div class="alinhamentoModos">
+                    <button class="modeRosa" id="modeRosa" onclick="mudarParaRosa()"></button>
+                    <button class="modeRoxo" id="modeRoxo" onclick="mudarParaRoxo()"></button>
+
+                    <button class="modeVerde" id="modeVerde" onclick="mudarParaVerde()"></button>
+                    <button class="modeAzul" id="modeAzul" onclick="mudarParaAzul()"></button>
+                </div>
+
+
+
+                <div class="alinhamento01">
+                    <div class="relogio" id="relogio">
+                        <p id="tempoRelogio" class="tempoEstilizacao">00:00</p>
+
+
+
+                    </div>
+
+                    <div class="pausarIniciarEncerrar">
+                        <form action="" class="relogioTempo" id="relogioTempo">
+
+                            <label for="minutosDigitados">Definir Temporizador em Minutos:</label>
+                            <input type="number" name="number" id="minutosDigitados">
+                            <div class="alinhamentoButton">
+                                <button type="submit" id="pausar">Pausar</button>
+                                <button type="submit" id="iniciar">Clique para Iniciar</button>
+                                <button type="reset" id="encerrar">Encerrar</button>
+                            </div>
+
+                        </form>
+
+
+                    </div>
+                </div>
+
+
+                <div class="formInput">
+                    <form action="" id="formulario">
+                        <label for="tarefaAqui">Escrever Atividade:</label>
+                        <input type="text" name="text" id="tarefaAqui">
+
+                        <label for="categoria">Categorizar Tempo:</label>
+                        <select name="text" id="categoria">
+
+                            <option value="foco">Foco</option>
+                            <option value="pausa">Pausa</option>
+
+                        </select>
+
+                        <button type="submit" id="botaoEnviar" class="botaoEnviar">Adicionar à Lista</button>
+                    </form>
+                </div>
+
+
+
+
+
+            </div>
+
+            <div class="segundoBloco">
+
+
+                <div class="atividades">
+                    <ul>
+                        <li id="atividadeLista">
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+        <script src="script.js"></script>
+
+    </main>
+
+</body>
+
+</html>
