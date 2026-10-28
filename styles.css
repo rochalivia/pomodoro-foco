@@ -148,7 +148,7 @@ form .alinhamentoButton {
 
     border-radius: 1rem;
     width: 300px;
-    height: 400px;
+    height: 200px;
     padding: 3rem;
 
     display: flex;
@@ -291,13 +291,14 @@ form .alinhamentoButton {
 .formInput form {
     display: flex;
     flex-direction: column;
-    width: 100%;
     border: 1px solid black;
     background-color: var(--accent);
     padding: 1rem;
     border-radius: 1rem;
     margin: 2rem;
     flex-wrap: wrap;
+    height:200px;
+    width:300px;
 }
 
 .formInput {
@@ -305,6 +306,8 @@ form .alinhamentoButton {
     align-items: center;
     justify-content: center;
     padding: 1rem;
+    width:100%
+    height:200px
 
 
 }
