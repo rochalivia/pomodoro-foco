@@ -1,5 +1,6 @@
 ///primeira atividade: personalizacao de temas (feito)
-///segunda atividade: adicionar atividades a lista
+///segunda atividade: adicionar atividades a lista (feito)
+///terceira atividade: aprender a utilizar função nativa setInterval (feito)
 
 ///localizando no html
 const temaRosa = document.querySelector('button#modeRosa')
