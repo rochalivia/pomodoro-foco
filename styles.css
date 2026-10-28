@@ -301,7 +301,7 @@ form .alinhamentoButton {
     border-radius: 1rem;
     margin: 2rem;
     flex-wrap: wrap;
-    height:250px;
+    height:100%;
     width:100%;
 }
 
@@ -310,7 +310,8 @@ form .alinhamentoButton {
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    height:250px;
+    flex-direction: row;
+    height:300px;
     width: 100%;
 
 
